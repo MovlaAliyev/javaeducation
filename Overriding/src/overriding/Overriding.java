@@ -13,7 +13,7 @@ public class Overriding {
       c.eat();
       
       a.breathe();
-      b.breathe();
+      b.breathe(); // cant override static methods
       c.breathe();
       
       c.fly();
