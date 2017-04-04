@@ -18,7 +18,7 @@ public class Overloaded {
         
         ab.eat();
         ab.eat("overloaded");
-        ab.eat(ab); // animal's eat method will be called
+        ab.eat(ab); // animal's eat method will called
         
         System.out.println(s.getSum(3, 5));    // int 
         System.out.println(s.getSum(5.5, 20)); // double
