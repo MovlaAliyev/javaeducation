@@ -3,12 +3,12 @@ package overloaded;
 public class Bird extends Animal {
 
     @Override
-    public void eat() {
+    public void eat() {         // override 
         System.out.println("Bird eat override");
     }
 
     
-    public void eat(String s) {
+    public void eat(String s) { // overloade
         System.out.println("Bird eat " + s);
     }
     
