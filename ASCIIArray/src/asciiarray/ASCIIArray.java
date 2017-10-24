@@ -17,5 +17,6 @@ public class ASCIIArray {
             System.out.write(b);
         }catch(IOException ioe){}
     }
+    public void test(){}
 
 }
