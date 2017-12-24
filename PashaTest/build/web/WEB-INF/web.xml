@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>csearch</servlet-name>
+        <servlet-class>com.pasha.controllers.CitySearchController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>csearch</servlet-name>
+        <url-pattern>/citys</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>cupdate</servlet-name>
+        <servlet-class>com.pasha.controllers.CityUpdateController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cupdate</servlet-name>
+        <url-pattern>/cityu</url-pattern>
+    </servlet-mapping>
+   
+    <servlet>
+        <servlet-name>pagination</servlet-name>
+        <servlet-class>com.pasha.controllers.CityPagiController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>pagination</servlet-name>
+        <url-pattern>/cityp</url-pattern>
+    </servlet-mapping>
+   
+   
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
